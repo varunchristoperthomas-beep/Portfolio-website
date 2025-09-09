@@ -1,0 +1,71 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Info Sections */
+.info {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.info h2 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+/* Interaction Section */
+.interaction {
+  text-align: center;
+  margin: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+#output {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
